@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF03C6201801A79600D042DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF03C61F1801A79600D042DC /* Foundation.framework */; };
+		DF03C6221801A79600D042DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF03C6211801A79600D042DC /* CoreGraphics.framework */; };
+		DF03C6241801A79600D042DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF03C6231801A79600D042DC /* UIKit.framework */; };
+		DF03C62A1801A79600D042DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF03C6281801A79600D042DC /* InfoPlist.strings */; };
+		DF03C62C1801A79600D042DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF03C62B1801A79600D042DC /* main.m */; };
+		DF03C6301801A79600D042DC /* TSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF03C62F1801A79600D042DC /* TSAppDelegate.m */; };
+		DF03C6331801A79600D042DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF03C6311801A79600D042DC /* Main.storyboard */; };
+		DF03C6361801A79600D042DC /* TSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF03C6351801A79600D042DC /* TSViewController.m */; };
+		DF03C6381801A79600D042DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF03C6371801A79600D042DC /* Images.xcassets */; };
+		DF03C63F1801A79600D042DC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF03C63E1801A79600D042DC /* XCTest.framework */; };
+		DF03C6401801A79600D042DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF03C61F1801A79600D042DC /* Foundation.framework */; };
+		DF03C6411801A79600D042DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF03C6231801A79600D042DC /* UIKit.framework */; };
+		DF03C6491801A79600D042DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF03C6471801A79600D042DC /* InfoPlist.strings */; };
+		DF03C64B1801A79600D042DC /* TimeSquareViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF03C64A1801A79600D042DC /* TimeSquareViewTests.m */; };
+		DF03C65E1801A7B900D042DC /* TSQCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF03C6571801A7B900D042DC /* TSQCalendarCell.m */; };
+		DF03C65F1801A7B900D042DC /* TSQCalendarMonthHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF03C6591801A7B900D042DC /* TSQCalendarMonthHeaderCell.m */; };
+		DF03C6601801A7B900D042DC /* TSQCalendarRowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF03C65B1801A7B900D042DC /* TSQCalendarRowCell.m */; };
+		DF03C6611801A7B900D042DC /* TSQCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF03C65D1801A7B900D042DC /* TSQCalendarView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF03C6421801A79600D042DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF03C6141801A79600D042DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF03C61B1801A79600D042DC;
+			remoteInfo = TimeSquareView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF03C61C1801A79600D042DC /* TimeSquareView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeSquareView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF03C61F1801A79600D042DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF03C6211801A79600D042DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF03C6231801A79600D042DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF03C6271801A79600D042DC /* TimeSquareView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeSquareView-Info.plist"; sourceTree = "<group>"; };
+		DF03C6291801A79600D042DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF03C62B1801A79600D042DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF03C62D1801A79600D042DC /* TimeSquareView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeSquareView-Prefix.pch"; sourceTree = "<group>"; };
+		DF03C62E1801A79600D042DC /* TSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSAppDelegate.h; sourceTree = "<group>"; };
+		DF03C62F1801A79600D042DC /* TSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSAppDelegate.m; sourceTree = "<group>"; };
+		DF03C6321801A79600D042DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF03C6341801A79600D042DC /* TSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSViewController.h; sourceTree = "<group>"; };
+		DF03C6351801A79600D042DC /* TSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSViewController.m; sourceTree = "<group>"; };
+		DF03C6371801A79600D042DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF03C63D1801A79600D042DC /* TimeSquareViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeSquareViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF03C63E1801A79600D042DC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DF03C6461801A79600D042DC /* TimeSquareViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeSquareViewTests-Info.plist"; sourceTree = "<group>"; };
+		DF03C6481801A79600D042DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF03C64A1801A79600D042DC /* TimeSquareViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeSquareViewTests.m; sourceTree = "<group>"; };
+		DF03C6541801A7B900D042DC /* TimesSquare-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TimesSquare-Prefix.pch"; sourceTree = "<group>"; };
+		DF03C6551801A7B900D042DC /* TimesSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimesSquare.h; sourceTree = "<group>"; };
+		DF03C6561801A7B900D042DC /* TSQCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarCell.h; sourceTree = "<group>"; };
+		DF03C6571801A7B900D042DC /* TSQCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarCell.m; sourceTree = "<group>"; };
+		DF03C6581801A7B900D042DC /* TSQCalendarMonthHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarMonthHeaderCell.h; sourceTree = "<group>"; };
+		DF03C6591801A7B900D042DC /* TSQCalendarMonthHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarMonthHeaderCell.m; sourceTree = "<group>"; };
+		DF03C65A1801A7B900D042DC /* TSQCalendarRowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarRowCell.h; sourceTree = "<group>"; };
+		DF03C65B1801A7B900D042DC /* TSQCalendarRowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarRowCell.m; sourceTree = "<group>"; };
+		DF03C65C1801A7B900D042DC /* TSQCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSQCalendarView.h; sourceTree = "<group>"; };
+		DF03C65D1801A7B900D042DC /* TSQCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSQCalendarView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF03C6191801A79600D042DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF03C6221801A79600D042DC /* CoreGraphics.framework in Frameworks */,
+				DF03C6241801A79600D042DC /* UIKit.framework in Frameworks */,
+				DF03C6201801A79600D042DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF03C63A1801A79600D042DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF03C63F1801A79600D042DC /* XCTest.framework in Frameworks */,
+				DF03C6411801A79600D042DC /* UIKit.framework in Frameworks */,
+				DF03C6401801A79600D042DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF03C6131801A79600D042DC = {
+			isa = PBXGroup;
+			children = (
+				DF03C6251801A79600D042DC /* TimeSquareView */,
+				DF03C6441801A79600D042DC /* TimeSquareViewTests */,
+				DF03C61E1801A79600D042DC /* Frameworks */,
+				DF03C61D1801A79600D042DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF03C61D1801A79600D042DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF03C61C1801A79600D042DC /* TimeSquareView.app */,
+				DF03C63D1801A79600D042DC /* TimeSquareViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF03C61E1801A79600D042DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF03C61F1801A79600D042DC /* Foundation.framework */,
+				DF03C6211801A79600D042DC /* CoreGraphics.framework */,
+				DF03C6231801A79600D042DC /* UIKit.framework */,
+				DF03C63E1801A79600D042DC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF03C6251801A79600D042DC /* TimeSquareView */ = {
+			isa = PBXGroup;
+			children = (
+				DF03C6621801A7BF00D042DC /* TSQ */,
+				DF03C62E1801A79600D042DC /* TSAppDelegate.h */,
+				DF03C62F1801A79600D042DC /* TSAppDelegate.m */,
+				DF03C6311801A79600D042DC /* Main.storyboard */,
+				DF03C6341801A79600D042DC /* TSViewController.h */,
+				DF03C6351801A79600D042DC /* TSViewController.m */,
+				DF03C6371801A79600D042DC /* Images.xcassets */,
+				DF03C6261801A79600D042DC /* Supporting Files */,
+			);
+			path = TimeSquareView;
+			sourceTree = "<group>";
+		};
+		DF03C6261801A79600D042DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF03C6271801A79600D042DC /* TimeSquareView-Info.plist */,
+				DF03C6281801A79600D042DC /* InfoPlist.strings */,
+				DF03C62B1801A79600D042DC /* main.m */,
+				DF03C62D1801A79600D042DC /* TimeSquareView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF03C6441801A79600D042DC /* TimeSquareViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF03C64A1801A79600D042DC /* TimeSquareViewTests.m */,
+				DF03C6451801A79600D042DC /* Supporting Files */,
+			);
+			path = TimeSquareViewTests;
+			sourceTree = "<group>";
+		};
+		DF03C6451801A79600D042DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF03C6461801A79600D042DC /* TimeSquareViewTests-Info.plist */,
+				DF03C6471801A79600D042DC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF03C6621801A7BF00D042DC /* TSQ */ = {
+			isa = PBXGroup;
+			children = (
+				DF03C6541801A7B900D042DC /* TimesSquare-Prefix.pch */,
+				DF03C6551801A7B900D042DC /* TimesSquare.h */,
+				DF03C6561801A7B900D042DC /* TSQCalendarCell.h */,
+				DF03C6571801A7B900D042DC /* TSQCalendarCell.m */,
+				DF03C6581801A7B900D042DC /* TSQCalendarMonthHeaderCell.h */,
+				DF03C6591801A7B900D042DC /* TSQCalendarMonthHeaderCell.m */,
+				DF03C65A1801A7B900D042DC /* TSQCalendarRowCell.h */,
+				DF03C65B1801A7B900D042DC /* TSQCalendarRowCell.m */,
+				DF03C65C1801A7B900D042DC /* TSQCalendarView.h */,
+				DF03C65D1801A7B900D042DC /* TSQCalendarView.m */,
+			);
+			name = TSQ;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF03C61B1801A79600D042DC /* TimeSquareView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF03C64E1801A79600D042DC /* Build configuration list for PBXNativeTarget "TimeSquareView" */;
+			buildPhases = (
+				DF03C6181801A79600D042DC /* Sources */,
+				DF03C6191801A79600D042DC /* Frameworks */,
+				DF03C61A1801A79600D042DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeSquareView;
+			productName = TimeSquareView;
+			productReference = DF03C61C1801A79600D042DC /* TimeSquareView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF03C63C1801A79600D042DC /* TimeSquareViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF03C6511801A79600D042DC /* Build configuration list for PBXNativeTarget "TimeSquareViewTests" */;
+			buildPhases = (
+				DF03C6391801A79600D042DC /* Sources */,
+				DF03C63A1801A79600D042DC /* Frameworks */,
+				DF03C63B1801A79600D042DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF03C6431801A79600D042DC /* PBXTargetDependency */,
+			);
+			name = TimeSquareViewTests;
+			productName = TimeSquareViewTests;
+			productReference = DF03C63D1801A79600D042DC /* TimeSquareViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF03C6141801A79600D042DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "APPEK, LLC";
+				TargetAttributes = {
+					DF03C63C1801A79600D042DC = {
+						TestTargetID = DF03C61B1801A79600D042DC;
+					};
+				};
+			};
+			buildConfigurationList = DF03C6171801A79600D042DC /* Build configuration list for PBXProject "TimeSquareView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF03C6131801A79600D042DC;
+			productRefGroup = DF03C61D1801A79600D042DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF03C61B1801A79600D042DC /* TimeSquareView */,
+				DF03C63C1801A79600D042DC /* TimeSquareViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF03C61A1801A79600D042DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF03C6381801A79600D042DC /* Images.xcassets in Resources */,
+				DF03C62A1801A79600D042DC /* InfoPlist.strings in Resources */,
+				DF03C6331801A79600D042DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF03C63B1801A79600D042DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF03C6491801A79600D042DC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF03C6181801A79600D042DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF03C62C1801A79600D042DC /* main.m in Sources */,
+				DF03C6301801A79600D042DC /* TSAppDelegate.m in Sources */,
+				DF03C6611801A7B900D042DC /* TSQCalendarView.m in Sources */,
+				DF03C65E1801A7B900D042DC /* TSQCalendarCell.m in Sources */,
+				DF03C6601801A7B900D042DC /* TSQCalendarRowCell.m in Sources */,
+				DF03C6361801A79600D042DC /* TSViewController.m in Sources */,
+				DF03C65F1801A7B900D042DC /* TSQCalendarMonthHeaderCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF03C6391801A79600D042DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF03C64B1801A79600D042DC /* TimeSquareViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF03C6431801A79600D042DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF03C61B1801A79600D042DC /* TimeSquareView */;
+			targetProxy = DF03C6421801A79600D042DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF03C6281801A79600D042DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF03C6291801A79600D042DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF03C6311801A79600D042DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF03C6321801A79600D042DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF03C6471801A79600D042DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF03C6481801A79600D042DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF03C64C1801A79600D042DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF03C64D1801A79600D042DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF03C64F1801A79600D042DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeSquareView/TimeSquareView-Prefix.pch";
+				INFOPLIST_FILE = "TimeSquareView/TimeSquareView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF03C6501801A79600D042DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeSquareView/TimeSquareView-Prefix.pch";
+				INFOPLIST_FILE = "TimeSquareView/TimeSquareView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DF03C6521801A79600D042DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TimeSquareView.app/TimeSquareView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeSquareView/TimeSquareView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TimeSquareViewTests/TimeSquareViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DF03C6531801A79600D042DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TimeSquareView.app/TimeSquareView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeSquareView/TimeSquareView-Prefix.pch";
+				INFOPLIST_FILE = "TimeSquareViewTests/TimeSquareViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF03C6171801A79600D042DC /* Build configuration list for PBXProject "TimeSquareView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF03C64C1801A79600D042DC /* Debug */,
+				DF03C64D1801A79600D042DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF03C64E1801A79600D042DC /* Build configuration list for PBXNativeTarget "TimeSquareView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF03C64F1801A79600D042DC /* Debug */,
+				DF03C6501801A79600D042DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF03C6511801A79600D042DC /* Build configuration list for PBXNativeTarget "TimeSquareViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF03C6521801A79600D042DC /* Debug */,
+				DF03C6531801A79600D042DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF03C6141801A79600D042DC /* Project object */;
+}
